@@ -63,6 +63,92 @@ function App() {
           <p>Special occasions</p>
         </div>
       </section>
+
+      <section className="product-sections">
+        <div className="product-section">
+          <h2>🍕 Food Delivery</h2>
+          <div className="products">
+            <div className="product-card">
+              <img src="https://via.placeholder.com/150x100/ff6b6b/fff?text=Pizza" alt="Pizza" />
+              <h4>Pizza</h4>
+              <p>₹299</p>
+            </div>
+            <div className="product-card">
+              <img src="https://via.placeholder.com/150x100/4ecdc4/fff?text=Burger" alt="Burger" />
+              <h4>Burger</h4>
+              <p>₹199</p>
+            </div>
+            <div className="product-card">
+              <img src="https://via.placeholder.com/150x100/45b7d1/fff?text=Biryani" alt="Biryani" />
+              <h4>Biryani</h4>
+              <p>₹349</p>
+            </div>
+          </div>
+        </div>
+
+        <div className="product-section">
+          <h2>🛒 Groceries</h2>
+          <div className="products">
+            <div className="product-card">
+              <img src="https://via.placeholder.com/150x100/96ceb4/fff?text=Fruits" alt="Fruits" />
+              <h4>Fresh Fruits</h4>
+              <p>₹150/kg</p>
+            </div>
+            <div className="product-card">
+              <img src="https://via.placeholder.com/150x100/feca57/fff?text=Vegetables" alt="Vegetables" />
+              <h4>Vegetables</h4>
+              <p>₹80/kg</p>
+            </div>
+            <div className="product-card">
+              <img src="https://via.placeholder.com/150x100/ff9ff3/fff?text=Dairy" alt="Dairy" />
+              <h4>Dairy Products</h4>
+              <p>₹60/L</p>
+            </div>
+          </div>
+        </div>
+
+        <div className="product-section">
+          <h2>💊 Medicines</h2>
+          <div className="products">
+            <div className="product-card">
+              <img src="https://via.placeholder.com/150x100/a55eea/fff?text=Vitamins" alt="Vitamins" />
+              <h4>Vitamins</h4>
+              <p>₹250</p>
+            </div>
+            <div className="product-card">
+              <img src="https://via.placeholder.com/150x100/26de81/fff?text=First+Aid" alt="First Aid" />
+              <h4>First Aid</h4>
+              <p>₹180</p>
+            </div>
+            <div className="product-card">
+              <img src="https://via.placeholder.com/150x100/fd79a8/fff?text=Wellness" alt="Wellness" />
+              <h4>Wellness</h4>
+              <p>₹320</p>
+            </div>
+          </div>
+        </div>
+
+        <div className="product-section">
+          <h2>🎁 Gifts</h2>
+          <div className="products">
+            <div className="product-card">
+              <img src="https://via.placeholder.com/150x100/f0932b/fff?text=Flowers" alt="Flowers" />
+              <h4>Flowers</h4>
+              <p>₹299</p>
+            </div>
+            <div className="product-card">
+              <img src="https://via.placeholder.com/150x100/eb4d4b/fff?text=Cakes" alt="Cakes" />
+              <h4>Cakes</h4>
+              <p>₹599</p>
+            </div>
+            <div className="product-card">
+              <img src="https://via.placeholder.com/150x100/6c5ce7/fff?text=Chocolates" alt="Chocolates" />
+              <h4>Chocolates</h4>
+              <p>₹450</p>
+            </div>
+          </div>
+        </div>
+      </section>
     </div>
   );
 }
