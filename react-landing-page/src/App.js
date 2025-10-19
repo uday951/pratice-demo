@@ -40,6 +40,29 @@ function App() {
           </div>
         </div>
       </section>
+
+      <section className="categories">
+        <div className="category-item">
+          <div className="category-icon">🍕</div>
+          <h3>Food</h3>
+          <p>Hot meals delivered</p>
+        </div>
+        <div className="category-item">
+          <div className="category-icon">🛒</div>
+          <h3>Groceries</h3>
+          <p>Fresh produce & essentials</p>
+        </div>
+        <div className="category-item">
+          <div className="category-icon">💊</div>
+          <h3>Medicines</h3>
+          <p>Health & wellness</p>
+        </div>
+        <div className="category-item">
+          <div className="category-icon">🎁</div>
+          <h3>Gifts</h3>
+          <p>Special occasions</p>
+        </div>
+      </section>
     </div>
   );
 }
