@@ -1,5 +1,6 @@
 import './App.css';
 import Navbar from './Navbar';
+import Footer from './Footer';
 
 function App() {
   return (
@@ -25,6 +26,7 @@ function App() {
           <p>Trusted by thousands</p>
         </div>
       </section>
+      <Footer />
     </div>
   );
 }
