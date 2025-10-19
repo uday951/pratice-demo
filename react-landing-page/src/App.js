@@ -36,6 +36,7 @@ function App() {
           </div>
           <div className="hero-image">
             <img src="https://techstory.in/wp-content/uploads/2022/03/Blinkit.jpg" alt="Blinkit delivery" />
+            <h1>hii</h1>
           </div>
         </div>
       </section>
