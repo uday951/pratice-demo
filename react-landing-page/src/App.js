@@ -1,8 +1,10 @@
 import './App.css';
+import Navbar from './Navbar';
 
 function App() {
   return (
     <div className="App">
+      <Navbar />
       <header className="hero">
         <h1>Welcome to Our Landing Page</h1>
         <p>Build amazing things with React</p>
