@@ -4,8 +4,13 @@
   box-sizing: border-box;
 }
 
+html {
+  scroll-behavior: smooth;
+}
+
 .App {
   font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', sans-serif;
+  overflow-x: hidden;
 }
 
 /* Navbar Styles */
@@ -178,8 +183,8 @@
 /* Hero Section */
 .hero {
   position: relative;
-  padding: 60px 20px;
-  min-height: 500px;
+  padding: 40px 20px;
+  min-height: 400px;
   overflow: hidden;
 }
 
@@ -224,21 +229,21 @@
 }
 
 .hero-text h1 {
-  font-size: 3.5rem;
+  font-size: 2.5rem;
   font-weight: 700;
-  margin-bottom: 10px;
+  margin-bottom: 8px;
   line-height: 1.1;
 }
 
 .typing-container {
-  min-height: 60px;
-  margin-bottom: 20px;
+  min-height: 45px;
+  margin-bottom: 15px;
   display: flex;
   align-items: center;
 }
 
 .typing-text {
-  font-size: 2.5rem;
+  font-size: 1.8rem;
   font-weight: 700;
   color: #ffd700;
   text-shadow: 2px 2px 4px rgba(0,0,0,0.3);
@@ -257,28 +262,36 @@
 }
 
 .hero-text h2 {
-  font-size: 1.5rem;
+  font-size: 1.2rem;
   font-weight: 400;
-  margin-bottom: 40px;
+  margin-bottom: 25px;
   opacity: 0.9;
   line-height: 1.4;
 }
 
 .download-section h3 {
-  font-size: 1.2rem;
-  margin-bottom: 20px;
+  font-size: 1rem;
+  margin-bottom: 15px;
   font-weight: 600;
 }
 
 .app-buttons {
   display: flex;
   gap: 15px;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.app-buttons a {
+  display: inline-block;
+  text-decoration: none;
 }
 
 .app-buttons img {
-  height: 50px;
+  height: 45px;
   cursor: pointer;
   transition: transform 0.2s;
+  display: block;
 }
 
 .app-buttons img:hover {
@@ -294,7 +307,7 @@
 .premium-carousel {
   position: relative;
   width: 100%;
-  height: 400px;
+  height: 350px;
   border-radius: 16px;
   overflow: hidden;
   box-shadow: 0 20px 40px rgba(0,0,0,0.1);
@@ -488,26 +501,37 @@
     margin: 10px 0 0 0;
   }
   
+  .hero {
+    padding: 30px 20px;
+    min-height: 350px;
+  }
+  
   .hero-content {
     flex-direction: column;
     text-align: center;
-    gap: 40px;
+    gap: 30px;
   }
   
   .hero-text h1 {
-    font-size: 2.5rem;
-  }
-  
-  .typing-text {
     font-size: 1.8rem;
   }
   
+  .typing-text {
+    font-size: 1.4rem;
+  }
+  
   .typing-container {
-    min-height: 50px;
+    min-height: 40px;
   }
   
   .hero-text h2 {
-    font-size: 1.2rem;
+    font-size: 1rem;
+    margin-bottom: 20px;
+  }
+  
+  .download-section h3 {
+    font-size: 0.9rem;
+    margin-bottom: 12px;
   }
   
   .nav-menu {
@@ -539,7 +563,11 @@
   }
   
   .premium-carousel {
-    height: 250px;
+    height: 220px;
+  }
+  
+  .app-buttons img {
+    height: 40px;
   }
   
   .nav-btn {

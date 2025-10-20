@@ -106,15 +106,15 @@ function App() {
       <header className="navbar">
         <div className="nav-container">
           <div className="logo">
-            <img src="https://techstory.in/wp-content/uploads/2022/03/Blinkit.jpg" alt="Blinkit" />
+            <img src="https://techstory.in/wp-content/uploads/2022/03/Blinkit.jpg" alt="QuickBite Logo" />
           </div>
           <div className="location">
             <span>📍 Delivery in 8 minutes</span>
             <p>New Delhi, Delhi, India</p>
           </div>
           <div className="search-bar">
-            <input type="text" placeholder='Search "butter"' />
-            <button>🔍</button>
+            <input type="text" placeholder='Search "butter"' aria-label="Search products" />
+            <button aria-label="Search">🔍</button>
           </div>
           <div className="nav-menu">
             <div className="nav-item-wrapper">
@@ -179,8 +179,12 @@ function App() {
             <div className="download-section">
               <h3>Download the app</h3>
               <div className="app-buttons">
-                <img src="https://techstory.in/wp-content/uploads/2022/03/Blinkit.jpg" alt="Play Store" />
-                <img src="https://techstory.in/wp-content/uploads/2022/03/Blinkit.jpg" alt="App Store" />
+                <a href="#playstore" aria-label="Download on Google Play Store">
+                  <img src="https://techstory.in/wp-content/uploads/2022/03/Blinkit.jpg" alt="Get it on Google Play" />
+                </a>
+                <a href="#appstore" aria-label="Download on Apple App Store">
+                  <img src="https://techstory.in/wp-content/uploads/2022/03/Blinkit.jpg" alt="Download on the App Store" />
+                </a>
               </div>
             </div>
           </div>
@@ -233,8 +237,8 @@ function App() {
                 </div>
               </div>
               <div className="carousel-nav">
-                <button className="nav-btn prev-btn">‹</button>
-                <button className="nav-btn next-btn">›</button>
+                <button className="nav-btn prev-btn" aria-label="Previous slide">‹</button>
+                <button className="nav-btn next-btn" aria-label="Next slide">›</button>
               </div>
               <div className="carousel-dots">
                 <span className="dot active"></span>
